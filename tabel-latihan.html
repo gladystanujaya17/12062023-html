@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Latihan</title>
+    <!--cara masukkin CSS tipe 2: masukkin tag style di bagian tag head-->
+    <style>
+        .kolom-nomor, .kolom-nama, .kolom-alamat {
+            background-color: lightseagreen;
+        }
+        .row-3 {
+            color: blue;
+        }
+        .kolom-nomor-3, .kolom-nama-3, .kolom-alamat-3 {
+            background-color: lightsalmon;
+            color: brown;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"> <!--ini langsung ketik link:css aja nanti template keluar-->
+</head>
+<body>
+    <h2 class="title-h2">Daftar Karyawan</h2>
+    <hr> <!--buat garis ya gengs jgn lupa-->
+    <table border="2">
+        <thead>
+            <tr style="background-color: lightblue;"> <!--cara masukkin CSS tipe 1: langsung cantumin di tag HTML nya-->
+                <th class="kolom-nomor">Nomor</th>
+                <th>Nomor Induk Karyawan</th>
+                <th class="kolom-nama">Nama</th>
+                <th>Jabatan</th>
+                <th class="kolom-alamat">Alamat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: aquamarine; font-size: larger;">
+                <td><center>01</center></td>
+                <td><center>0000001</center></td>
+                <td><center>Gladys Tanujaya</center></td>
+                <td><center>CEO</center></td>
+                <td><center>Menteng, Jakarta Pusat</center></td>
+            </tr>
+            <tr style="background-color: lightgray;">
+                <td>02</td>
+                <td>0000002</td>
+                <td>Kevin Tanujaya</td>
+                <td>CFO</td>
+                <td>Kelapa Gading, Jakarta Utara</td>
+            </tr>
+            <tr class="row-3" style="background-color: lightpink; font-size: smaller;">
+                <td class="kolom-nomor-3">03</td>
+                <td>0000003</td>
+                <td class="kolom-nama-3">Tomo Wijaya</td>
+                <td>CTO</td>
+                <td class="kolom-alamat-3">Tebet, Jakarta Selatan</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--kalau mau latihan HTML CSS bisa cek w3schools-->
+</body>
+</html>

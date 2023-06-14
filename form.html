@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <form action="https://google.com">
+        <label for="isi-username">Username</label> <!--buat title inputannya-->
+        <br>
+        <input type="text" id="isi-username"> <!--buat kolom inputannya-->
+        <!--tujuan for dan id diisi itu buat menghubungkan saja, jd pas lu klik itu tulisan Username, nanti dia di inputannya nyala ada tanda | nyala mati gitu deh-->
+        
+        <br>
+        <br>
+        <label for="">Jumlah</label>
+        <br>
+        <input type="number">
+        
+        <br>
+        <label for="">Tanggal</label>
+        <br>
+        <input type="date">
+        
+        <br>
+        <label for="alamat">Alamat</label>
+        <br>
+        <textarea name="" id="alamat" cols="50" rows="5"></textarea> <!--ini dipakai buat inputan yang teksnya banyak dan panjang-->
+        
+        <br>
+        <button type="submit">Submit</button> <!--nanti actionnya diisi di form action ya ges--> <!--button type harus submit ya, jgn yg lain-->
+        <button disabled="disabled">Disabled</button>
+    </form>
+
+    <!--cari sumber tambahan di w3schools HTML form-->
+    <!--ini bikin form kesamping supaya lebih rapi aja formatnya-->
+    <br>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="">Username</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Jumlah</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="">Tanggal</label></td>
+                <td><input type="date"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

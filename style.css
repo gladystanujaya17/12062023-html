@@ -1,0 +1,9 @@
+.title-h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+}
+
+.kolom-nomor, .kolom-nama, .kolom-alamat {
+    background-color: lightsteelblue;
+}
+
